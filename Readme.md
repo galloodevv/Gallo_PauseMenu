@@ -46,7 +46,7 @@ Todas las opciones son configurables en `config.lua`:
 * ¡Y más!
 
 ### 📞 Soporte
-* Discord: [Únete a nuestro servidor](https://discord.gg/example)
+* Discord: [Únete a nuestro servidor](https://discord.gg/Q9h6SqxZBR)
 * GitHub Issues
 
 </div>
@@ -87,7 +87,7 @@ All options are configurable in `config.lua`:
 * And more!
 
 ### 📞 Support
-* Discord: [Join our server](https://discord.gg/example)
+* Discord: [Join our server](https://discord.gg/Q9h6SqxZBR)
 * GitHub Issues
 
 </div>

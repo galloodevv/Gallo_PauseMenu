@@ -67,8 +67,7 @@ Todas las opciones son configurables en `config.lua`:
 
 ### 📋 Requirements
 * ESX Legacy
-* QB-Core (opcional)
-* FiveM Server
+* QB-Core (optional)
 
 ### ⚙️ Installation
 1. Download the resource

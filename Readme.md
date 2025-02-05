@@ -1,6 +1,6 @@
 <div align="center">
   
-# 🎮 ESX Pause Menu UI
+# 🎮 Fivem Pause Menu Para QBCORE y ESX
 
 ### 🌟 Una interfaz moderna y elegante para el menú de pausa | A modern and elegant pause menu interface
 

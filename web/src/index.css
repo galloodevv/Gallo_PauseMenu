@@ -25,6 +25,7 @@ body {
   font-family: 'Rajdhani-medium', sans-serif;
 }
 
+/* Scrollbar Styles */
 ::-webkit-scrollbar {
   width: 8px;
 }

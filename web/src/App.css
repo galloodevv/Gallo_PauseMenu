@@ -37,6 +37,7 @@
   animation: fadeIn 0.5s ease-out;
 }
 
+/* Header Styles */
 .player-header {
   display: flex;
   justify-content: space-between;
@@ -102,6 +103,7 @@
   letter-spacing: 0.5px;
 }
 
+/* Menu Grid */
 .menu-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -155,6 +157,7 @@
 .menu-button.bindings:hover { background: linear-gradient(135deg, rgba(52, 152, 219, 0.4), rgba(41, 128, 185, 0.6)); }
 .menu-button.exit:hover { background: linear-gradient(135deg, rgba(231, 76, 60, 0.4), rgba(192, 57, 43, 0.6)); }
 
+/* Status Bar */
 .status-bar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -182,6 +185,7 @@
   opacity: 0.8;
 }
 
+/* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -254,6 +258,7 @@
   transform: scale(1.1);
 }
 
+/* Utility classes */
 .flex-between {
   display: flex;
   justify-content: space-between;

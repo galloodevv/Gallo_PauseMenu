@@ -28,7 +28,6 @@
 ### 📋 Requisitos
 * ESX Legacy
 * QB-Core (opcional)
-* FiveM Server
 
 ### ⚙️ Instalación
 1. Descarga el recurso

@@ -17,36 +17,40 @@
 ## 🇪🇸 Español
 
 ### ✨ Características
-* 🎯 Diseño moderno y responsive
-* 💼 Muestra información del jugador y trabajo
-* 💰 Sistema de múltiples monedas
-* 👥 Estado de servicios en tiempo real
-* 🌐 Enlaces a redes sociales configurables
-* 🎨 Animaciones fluidas
-* ⚡ Optimizado para el mejor rendimiento
+* 🎯 Diseño moderno y responsive  
+* 💼 Muestra información del jugador y trabajo  
+* 💰 Sistema de múltiples monedas  
+* 👥 Estado de servicios en tiempo real  
+* 🌐 Enlaces a redes sociales configurables  
+* 🎨 Animaciones fluidas  
+* ⚡ Optimizado para el mejor rendimiento  
 
 ### 📋 Requisitos
-* ESX Legacy
-* QB-Core (opcional)
+* Node.js  
+* ESX Legacy  
+* QB-Core (opcional)  
 
 ### ⚙️ Instalación
-1. Descarga el recurso
-2. Colócalo en tu carpeta `resources`
-3. Añade `ensure gallo_pausemenu` a tu `server.cfg`
-4. Configura el archivo `config.lua` según tus necesidades
-5. ¡Disfruta!
+1. Descarga el recurso.  
+2. Abre una terminal en la carpeta del recurso.  
+3. Ejecuta `npm install` para instalar las dependencias necesarias.  
+4. Ejecuta `npm run build` para compilar el proyecto.  
+5. Coloca el recurso en tu carpeta `resources`.  
+6. Añade `ensure gallo_pausemenu` a tu `server.cfg`.  
+7. Configura el archivo `config.lua` según tus necesidades.  
+8. ¡Disfruta!
 
 ### 🛠️ Configuración
 Todas las opciones son configurables en `config.lua`:
-* Idioma
-* URLs de redes sociales
-* Trabajos monitoreados
-* Sistema de monedas
-* ¡Y más!
+* Idioma  
+* URLs de redes sociales  
+* Trabajos monitoreados  
+* Sistema de monedas  
+* ¡Y más!  
 
 ### 📞 Soporte
-* Discord: [Únete a nuestro servidor](https://discord.gg/Q9h6SqxZBR)
-* GitHub Issues
+* Discord: [Únete a nuestro servidor](https://discord.gg/Q9h6SqxZBR)  
+* GitHub Issues  
 
 </div>
 
@@ -57,36 +61,40 @@ Todas las opciones son configurables en `config.lua`:
 ## 🇺🇸 English
 
 ### ✨ Features
-* 🎯 Modern and responsive design
-* 💼 Player and job information display
-* 💰 Multiple currency system
-* 👥 Real-time service status
-* 🌐 Configurable social media links
-* 🎨 Smooth animations
-* ⚡ Optimized for best performance
+* 🎯 Modern and responsive design  
+* 💼 Player and job information display  
+* 💰 Multiple currency system  
+* 👥 Real-time service status  
+* 🌐 Configurable social media links  
+* 🎨 Smooth animations  
+* ⚡ Optimized for best performance  
 
 ### 📋 Requirements
-* ESX Legacy
-* QB-Core (optional)
+* Node.js  
+* ESX Legacy  
+* QB-Core (optional)  
 
 ### ⚙️ Installation
-1. Download the resource
-2. Place it in your `resources` folder
-3. Add `ensure gallo_pausemenu` to your `server.cfg`
-4. Configure the `config.lua` file to your needs
-5. Enjoy!
+1. Download the resource.  
+2. Open a terminal in the resource folder.  
+3. Run `npm install` to install the required dependencies.  
+4. Run `npm run build` to compile the project.  
+5. Place the resource in your `resources` folder.  
+6. Add `ensure gallo_pausemenu` to your `server.cfg`.  
+7. Configure the `config.lua` file to your needs.  
+8. Enjoy!
 
 ### 🛠️ Configuration
 All options are configurable in `config.lua`:
-* Language
-* Social media URLs
-* Monitored jobs
-* Currency system
-* And more!
+* Language  
+* Social media URLs  
+* Monitored jobs  
+* Currency system  
+* And more!  
 
 ### 📞 Support
-* Discord: [Join our server](https://discord.gg/Q9h6SqxZBR)
-* GitHub Issues
+* Discord: [Join our server](https://discord.gg/Q9h6SqxZBR)  
+* GitHub Issues  
 
 </div>
 

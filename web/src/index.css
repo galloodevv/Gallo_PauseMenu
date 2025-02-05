@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Rajdhani-medium';
+  src: url('/src/assets/fonts/Rajdhani-Medium.ttf') format('truetype');
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: 'Rajdhani-medium', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("https://i.imgur.com/3pzRj9n.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Rajdhani-medium', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Rajdhani-medium', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,0.4);
+}

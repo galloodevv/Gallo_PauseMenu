@@ -1,7 +1,7 @@
 local Framework = nil
 local display = false
-local X = {}
-X.Open = false
+local G = {}
+G.Open = false
 local sleep = 1000
 local menuOpen = false
 local otherMenuOpen = false
@@ -34,9 +34,9 @@ CreateThread(function()
 end)
 
 function SwitchPM()
-    X.Open = not X.Open
+    G.Open = not G.Open
 
-    if X.Open then
+    if G.Open then
         TriggerServerEvent('pausemenu:requestJobsUpdate')
         SetDisplay(true)
         TriggerScreenblurFadeIn(200)
@@ -184,21 +184,21 @@ else
 end
 
 RegisterNUICallback('close', function(data, cb)
-    X.Open = false
+    G.Open = false
     SetDisplay(false)
     TriggerScreenblurFadeOut(200)
     cb('ok')
 end)
 
 RegisterNUICallback('exit', function(data, cb)
-    X.Open = false
+    G.Open = false
     SetDisplay(false)
     TriggerScreenblurFadeOut(200)
     cb('ok')
 end)
 
 RegisterNUICallback('openSettings', function(data, cb)
-    X.Open = false
+    G.Open = false
     SetDisplay(false)
     TriggerScreenblurFadeOut(200)
     Wait(100)
@@ -209,7 +209,7 @@ RegisterNUICallback('openSettings', function(data, cb)
 end)
 
 RegisterNUICallback('openMap', function(data, cb)
-    X.Open = false
+    G.Open = false
     SetDisplay(false)
     TriggerScreenblurFadeOut(200)
     Wait(100)
@@ -221,7 +221,7 @@ RegisterNUICallback('openMap', function(data, cb)
 end)
 
 RegisterNUICallback('openBindings', function(data, cb)
-    X.Open = false
+    G.Open = false
     SetDisplay(false)
     TriggerScreenblurFadeOut(200)
     Wait(100)
@@ -269,4 +269,4 @@ CreateThread(function()
         end
         Wait(100)
     end
-end) 
+end)

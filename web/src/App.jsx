@@ -13,6 +13,7 @@ function App() {
     cashMoney: 1000000,
     bankMoney: 1000000,
     blackMoney: 1000000,
+    coins: 1000000,
   });
   const [statusData, setStatusData] = useState({
     playersOnline: 100,
@@ -36,7 +37,7 @@ function App() {
     cash: true,
     bank: true,
     black: true,
-    coins: false
+    coins: true
   });
 
   useEffect(() => {
@@ -196,7 +197,7 @@ function App() {
                 </div>
                 <div className="money-info">
                   <span className="money-label">{labels.coins}</span>
-                  <span className="money-amount">{playerData.vipMoney}</span>
+                  <span className="money-amount">{playerData.coins}</span>
                 </div>
               </div>
             )}

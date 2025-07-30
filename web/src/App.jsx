@@ -5,41 +5,11 @@ import { Icon } from '@iconify/react';
 import './App.css';
 
 function App() {
-  const [visible, setVisible] = useState(true);
-  const [playerData, setPlayerData] = useState({
-    avatar: 'https://cdn.discordapp.com/icons/1399793444427141161/8f5cdb64cc2e894c86110591752e94f1.jpg?size=1024',
-    name: 'Gallodevv',
-    job: 'Unemployed',
-    secondJob: 'Unemployed',
-    cashMoney: 1000000,
-    bankMoney: 1000000,
-    blackMoney: 1000000,
-    coins: 1000000,
-  });
-  const [statusData, setStatusData] = useState({
-    playersOnline: 100,
-  });
-  const [labels, setLabels] = useState({
-    cashMoney: 'Cash',
-    bankMoney: 'Bank',
-    blackMoney: 'Black Money',
-    coins: 'Coins',
-    settings: 'Settings',
-    map: 'Map',
-    discord: 'Discord',
-    bindings: 'Bindings',
-    exit: 'Exit',
-    playersOnline: 'Players Online',
-    policeStatus: 'Police',
-    emsStatus: 'EMS',
-    mechanicStatus: 'Mechanic',
-  });
-  const [accounts, setAccounts] = useState({
-    cash: true,
-    bank: true,
-    black: true,
-    coins: true
-  });
+  const [visible, setVisible] = useState(false);
+  const [playerData, setPlayerData] = useState({});
+  const [statusData, setStatusData] = useState({});
+  const [labels, setLabels] = useState({});
+  const [accounts, setAccounts] = useState({});
 
   useEffect(() => {
     window.addEventListener('message', function(event) {

@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 import './App.css';
 
 function App() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(false);
   const [playerData, setPlayerData] = useState({
     avatar: 'https://cdn.discordapp.com/icons/1399793444427141161/8f5cdb64cc2e894c86110591752e94f1.jpg?size=1024',
     name: 'Gallodevv',

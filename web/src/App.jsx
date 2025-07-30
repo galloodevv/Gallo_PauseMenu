@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { FaWallet, FaPiggyBank, FaMoneyBillWave, FaGem, FaCog, FaMapMarkerAlt, FaKeyboard, FaSignOutAlt, FaUsers, FaShieldAlt, FaAmbulance, FaWrench, FaYoutube, FaTwitter, FaInstagram, FaDiscord, FaHome, FaCar } from 'react-icons/fa';
+import { FaWallet, FaPiggyBank, FaMoneyBillWave, FaGem, FaCog, FaMapMarkerAlt, FaKeyboard, FaSignOutAlt, FaUsers, FaShieldAlt, FaAmbulance, FaWrench, FaYoutube, FaTwitter, FaInstagram, FaDiscord } from 'react-icons/fa';
+import { MdLocalPolice } from "react-icons/md";
 import { Icon } from '@iconify/react';
 import './App.css';
 
@@ -252,7 +253,7 @@ function App() {
             </div>
             
             <div className="stat-item police">
-              <Icon icon="noto:police-officer" className="stat-icon" />
+              <MdLocalPolice className="stat-icon" />
               <div className="stat-content">
                 <span className="stat-label">{labels.policeStatus}</span>
                 <span className="stat-value">{statusData.police || 0}</span>
@@ -260,7 +261,7 @@ function App() {
             </div>
             
             <div className="stat-item ems">
-              <Icon icon="fxemoji:ambulance" className="stat-icon" />
+              <FaAmbulance className="stat-icon" />
               <div className="stat-content">
                 <span className="stat-label">{labels.emsStatus}</span>
                 <span className="stat-value">{statusData.ems || 0}</span>
@@ -268,7 +269,7 @@ function App() {
             </div>
             
             <div className="stat-item mechanic">
-              <Icon icon="noto:mechanic" className="stat-icon" />
+              <FaWrench className="stat-icon" />
               <div className="stat-content">
                 <span className="stat-label">{labels.mechanicStatus}</span>
                 <span className="stat-value">{statusData.mechanic || 0}</span>

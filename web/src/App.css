@@ -387,19 +387,15 @@ body {
 }
 
 .stat-item.players .stat-icon {
-  color: var(--accent-color);
-}
-
-.stat-item.police .stat-icon {
-  color: #dc2626;
+  color: white;
 }
 
 .stat-item.ems .stat-icon {
-  color: #ea580c;
+  color: #ff8383;
 }
 
 .stat-item.mechanic .stat-icon {
-  color: #7c3aed;
+  color: #8f8f8f;
 }
 
 
